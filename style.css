@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(136, 190, 204);
+}
+.card{
+    width: 750px;
+    color: rgb(15, 15, 15);
+    margin:100px auto 0;
+    border-radius: 9px;
+    overflow: hidden;
+  
+}
+.card-entrance{
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: white;
+    letter-spacing: 1.5px;
+}
+.card-entrance h2{
+    font-family: 'Karla',sans-serif;
+    font-weight: 700;
+    font-size:28px;
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 38px;
+}
+.card-entrance h3{
+    font-family:'Karla',sans-serif;
+    font-weight: 400;
+
+    color: rgb(192, 223, 52);
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+.card-entrance p { 
+    font-family:'Karla',sans-serif;
+    font-weight: 400;
+    color: #555;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    padding: 0 40px 0 0;
+
+}.card-bottom{
+    display: flex;
+    color: white;
+}
+.card-fee{
+    background-color: teal;
+    width: 65%;
+    padding-left: 50px;
+    padding-top: 30px;
+
+}
+.card-about{
+    background-color: rgb(64, 131, 131);
+    padding-right: 60px;
+    width: 50%;
+    padding-left: 80px;
+    padding-top: 30px;
+
+}
+.card-bottom h3{
+    font-family:'Karla',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.card-bottom p{
+    font-size: 16px;
+    
+    line-height: -15px;
+    font-family:'Karla',sans-serif;
+    font-weight: 400;
+}
+
+.year{
+    font-size: 32px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.month{
+    font-family:'Karla',sans-serif;
+    font-weight: 400;
+    color: linen;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.card-fee p{
+    font-size: 18px;
+
+}
+.btn{
+    border: 1px solid teal;
+    font-family:'Karla',sans-serif;
+    font-weight: 400;
+    border-radius: 3px;
+    margin: 20px auto 40px;
+    padding: 10px 10px;
+    width: 85%;
+    background-color: rgb(192, 223, 52);
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+    color: wheat;
+    font-family:'Karla',sans-serif;
+    font-weight: 400;
+}
+.card-about{
+    padding-left:60px;
+    padding-top: 30px;
+    letter-spacing: 1.5px;
+    
+}
+.card-about p{
+    line-height: 20px;
+    font-size: 16px;
+}
